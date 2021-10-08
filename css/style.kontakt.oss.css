@@ -1,0 +1,73 @@
+.text-container {
+  position: static;
+  margin: auto;
+  width: 50%;
+  height: 30px;
+  padding: 40px;
+  text-align: center;
+}
+
+.wrapper {
+  margin: auto;
+  width: 25%;
+  border-radius: 4px;
+  background-color: #85c9ab;
+  padding: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.wrapper p {
+  font-family: sans-serif;
+  color: #27594a;
+  font-size: 30px;
+  font-weight: bolder;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.wrapper label,
+textarea {
+  font-family: sans-serif;
+  color: #27594a;
+  margin-inline-end: 85%;
+}
+
+.wrapper p {
+  font-family: sans-serif;
+  color: #27594a;
+}
+
+input[type="text"],
+input[type="subject"] {
+  border-radius: 4px;
+  background-color: white;
+  width: 100%;
+  cursor: pointer;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+textarea {
+  border-radius: 4px;
+  background-color: white;
+  width: 100%;
+  cursor: pointer;
+  padding: 5px 0px 100px 0px;
+  margin-top: 20px;
+}
+
+input[type="submit"] {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 4px;
+  background-color: #27594a;
+  width: 100%;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.button {
+  height: 90px;
+}

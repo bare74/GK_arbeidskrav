@@ -1,0 +1,151 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #85c9ab;
+  color: #27594a;
+}
+
+a {
+  color: #153633;
+  font-size: 15px;
+}
+
+h1 {
+  color: #153633;
+  font-size: 25px;
+}
+
+h2 {
+  color: #27594a;
+  font-size: 45px;
+}
+
+h3 {
+  font-size: 20px;
+  color: #27594a;
+}
+
+.main-container {
+  display: flex;
+  margin-left: 100px;
+}
+
+.main-container img {
+  height: 75px;
+}
+
+.main-container h1,
+a {
+  width: 50%;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #27594a;
+}
+.navigation {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.navigation li {
+  display: inline;
+  margin: 30px;
+}
+
+.container {
+  position: static;
+  padding: 5%;
+}
+
+.container h2 {
+  float: left;
+  font-size: 45px;
+}
+
+.background_img {
+  position: static;
+  background-image: url(../img/prekestolen.jpeg);
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+main h3 {
+  margin-top: 50px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.gallary ul {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.gallary li {
+  margin: 20px;
+  background-color: #85c9ab;
+  list-style: none;
+}
+
+.gallary li:hover {
+  background-color: #3a4540;
+}
+
+.gallary p {
+  padding-left: 40px;
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.gallary img {
+  width: 300px;
+  height: 300px;
+}
+
+footer {
+  border-top-width: 3px;
+  border-top-style: solid;
+  border-top-color: #85c9ab;
+  margin-bottom: 30px;
+}
+
+.copyright {
+  width: 80%;
+}
+
+.copyright p {
+  color: #153633;
+  margin-top: 20px;
+}
+
+.social {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.social a {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+.social img {
+  width: 30px;
+  height: 30px;
+}
+.social a:hover {
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+}
