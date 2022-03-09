@@ -1,12 +1,13 @@
 .text-container {
-  position: static;
   margin: auto;
   width: 50%;
   height: 30px;
   padding: 40px;
   text-align: center;
 }
-
+h1 {
+  margin: 20px;
+}
 .wrapper {
   margin: auto;
   width: 25%;

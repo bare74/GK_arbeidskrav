@@ -35,12 +35,21 @@ h3 {
   color: #27594a;
 }
 
-.main-container {
+.main-container{
+  position:relative;
   display: flex;
   margin-left: 100px;
 }
 
-.main-container img {
+
+
+.main-container1 {
+  position: relative;
+  display: flex;
+  margin-left: 100px;
+}
+
+.main-container img, .main-container1 img {
   height: 75px;
 }
 
@@ -52,6 +61,7 @@ a {
   color: #27594a;
 }
 .navigation {
+  width: 100%;
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -62,7 +72,7 @@ a {
 }
 
 .container {
-  position: static;
+  
   padding: 5%;
 }
 
@@ -72,7 +82,6 @@ a {
 }
 
 .background_img {
-  position: static;
   background-image: url(../img/prekestolen.jpeg);
   height: 500px;
   background-position: center;
@@ -115,7 +124,7 @@ main h3 {
   height: 300px;
 }
 
-footer {
+footer { 
   border-top-width: 3px;
   border-top-style: solid;
   border-top-color: #85c9ab;
